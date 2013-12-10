@@ -18,4 +18,14 @@
         android:id="@+id/textBox"
         android:text="@string/hello_world" />
 
+    <ImageButton
+        android:id="@+id/alarmImgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:background="@android:color/background_dark"
+        android:src="@android:drawable/ic_lock_idle_alarm" />
+
 </RelativeLayout>
